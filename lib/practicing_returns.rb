@@ -8,6 +8,7 @@ def hello(array)
     yield(array[i])
     i += 1 #This makes sure we continue to loop until the point where i = array.length
   end
+  collection
 end
 
 
